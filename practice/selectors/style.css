@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    color: #121212;
+}
+
+.container {
+    width: 500px;
+    padding: 20px;
+    margin: 20px auto;
+    
+    background-color: #eee;
+}
+
+.container h1 {
+    color: red;
+}
+
+.container h1 {
+    color: green !important;
+}

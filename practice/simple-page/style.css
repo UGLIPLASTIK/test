@@ -1,0 +1,178 @@
+
+body {
+    margin: 0;
+    
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #121212;
+    
+    background:
+    url(img/bg.jpg);
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* Header */
+.page {
+    width: 1000px;
+    margin: 20px auto;  
+    background-color: #fff;
+}
+
+.header {
+    padding: 20px;
+    background-color: #121212;
+}
+
+.heder-title {
+    margin: 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+
+.header-subtitle {
+    margin: 0;
+    color: #70b1f9;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Navigation */
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   
+}
+
+.nav-link {
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #121212;
+    background-color: #ffffff;
+    transition: background-color 0.1s linear;
+}
+
+.nav-link:hover {
+    background-color: #d6d6d6;
+}
+
+/* Content */
+
+.content {
+    width: 800px;
+    padding: 0 15px;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.intro-img {
+    border-radius: 15px;
+    box-shadow: -4px 8px 6px 0px #b3aeae;
+    height: 250px;
+    opacity: 0.8;
+    background-color: #212121;
+    transition: opacity 0.1s linear;
+}
+
+.intro-img:hover {
+    opacity: 1;
+}
+
+.content-title {
+    text-align: center;
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #960606;
+}
+
+.read-more {
+    color: #3d2395;
+    text-decoration: none;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+.content-text {
+    margin-bottom: 20px;
+    
+}
+
+/* Article*/
+
+.article-title {
+    margin: 0 0 5px;
+    
+    font-size: 18px;
+    color: #0e0e89;
+    
+}
+
+.article-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.article-title a:hover {
+    text-decoration: underline;
+}
+
+.article-date {
+    display: block;
+    font-size: 12px;
+    color: #6f6a6a;
+}
+
+.article {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #000;
+}
+
+
+/* Container*/
+
+.container {
+    display: flex;
+}
+
+/* Sidebar*/
+
+.sidebar {
+    position: relative;
+    overflow: hidden;
+    width: 200px;
+    padding: 10px;
+    background-color: #dcdcdc;
+}
+
+.sidebar-title {
+    text-align: center;
+    color: #9a1212;
+    font-size: 22px;
+    margin: 10px auto;
+    
+}
+
+/* Footer */
+
+.footer {
+    padding: 20px;
+    background-color: #121212;
+    color: #fff;
+    text-align: center;
+}
+

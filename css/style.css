@@ -1,0 +1,386 @@
+@font-face {
+    font-family: 'RUSWolfenstein';
+    src: url("../fonts/RUSWolfenstein.woff") format('woff');
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000000;
+    
+    margin: 0;
+    
+    background: #ffffff;
+    background-size: 200px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.title {
+    font-family: RUSWolfenstein;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-decoration: dotted 
+    text-transform: uppercase;
+}
+
+.justify {
+    text-align: justify;
+    font-weight: bold;
+    font-style: ;
+}
+
+
+
+ul {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+    color: #ff0000;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    color: #0031ff;
+}
+
+.title2 {
+    color: red;
+}
+
+.title3 {
+    color: #0031ff;
+}
+
+dl {
+    color: #38f20c;
+}
+
+.nostr {
+    text-indent: 0px;
+    font-style: italic;
+}
+
+.about {
+    font-weight: bold;
+}
+
+.table {
+    width: 100%;
+    border: 3px dashed #9338d3;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.table th {
+    color: #ff0000;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+.table td {
+    padding: 5px 10px;
+    border: 3px dotted #9338d3;
+}
+
+.table tfoot td {
+    text-align: right;
+}
+
+.text-red {
+    display: inline-block;
+    padding: ;
+    color: #ff0000;
+}
+
+.page {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Post */
+.post {
+    width: 700px;
+    height: 400px;
+    padding: 15px 25px;
+    margin: 0 auto 20px;
+    border: 1px solid #ddd;
+    background: #fff url("../img/2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.post-title {
+    margin: 0;
+    margin-bottom: 20px;
+    color: #0700be;
+}
+
+.post-text p {
+    margin: 0 0 10px 0;
+}
+
+.gradient {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    
+    /*background-image: linear-gradient(to right, #ffffff 10%, #000000 10%, #880000 20%, #8b0000 20%, #ffffff 30%, #ffffff 30%, #2c9084 40%, #0093a7 40%, #fff 50%, #333 50%, #333 60%, #fff 60%, #fff 70%, #333 70%, #333 80%, #fff 80%, #fff 90%, #333 90%);*/
+    background-image: radial-gradient(circle, #fff, #342ece);
+}
+
+/* Form */
+.form {
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    
+    background-color: #fff;
+}
+.form-group {
+    margin: 0 0 10px;
+}
+
+.form-input {
+    display: block;
+    font-family: Tahoma, sans-serif;
+    padding: 5px;
+    border: solid 1px #000000;
+    font-size: 15px;
+}
+
+.form-input:focus {
+    outline: none;
+    background-color: #d9f7ed;
+}
+
+.form-textarea {
+    font: italic 15px/1.5 tahoma, sans-serif;
+    width: 460px;
+    min-height: 150px;
+    max-height: 300px;
+    padding: 5px;
+    border: solid 1px #000000;
+    outline: 2px solid #500c0c;
+    outline-offset: 1px;
+    resize: vertical;
+}
+
+.form-textarea:focus {
+    background-color: #d9f7ed;
+}
+
+.link {
+    color: #119696;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: #3d0655;
+}
+
+.link:hover {
+    text-decoration: underline; 
+}
+
+.btn {
+    background-color: #2fba35;
+    color: #000000;
+    border: 2px solid #198d10;
+    border-radius: 4px;
+    transition: background 0.35s linear, border-color 0.35s linear;
+}
+
+
+.btn:hover,
+.btn:focus {
+    background-color: #045c04;
+    cursor: pointer;
+    border-color: #0d4e08;
+}
+
+
+.btn:disabled {
+    background-color: #404040;
+    color: #767676;
+    border: none;
+    cursor: not-allowed;
+}
+.form-fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.form-title {
+    margin: 0 0 15px;
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: #553fcc;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    z-index: 2;
+}
+
+.square.red {
+    background-color: #900a0a;
+    right: -15px;
+    top: -15px;
+    z-index: 1;
+}
+
+.modal {
+    width: 500px;
+    height: 300px;
+    
+    position: relative;
+    
+    margin: 20px auto;
+    background-color: #eee;  
+    
+}
+
+.modal-title {
+    margin: 0;
+    text-align:;
+    color: black;
+}
+
+
+
+.square-fixed {
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    background-color: #21b538;
+    position: fixed;
+    left: 0px;
+    bottom: 50%;
+    
+}
+
+.pseudo-title {
+    color: white;
+    margin: 0;
+    position: relative;
+    text-align: center;
+}
+
+.pseudo-title:before {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #ae96ef;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    margin-left: -35px;
+}
+
+.pseudo-title:after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #8aeaa8;
+}
+
+.pseudo-text {
+    color: #ffffff;
+}
+
+.pseudo-text p:first-letter {
+    color: #ff0000;
+}
+
+.pseudo-text p:first-line {
+    color: #fc83d6
+}
+
+.figcap {
+    font-style: italic;
+    font-size: 12px;
+    padding: 0 0 0 50px;
+}
+
+.element {
+    width: 400px;
+    height: 400px;
+    background-color: #6c6565;
+    
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px #acacac;
+    opacity: 0.7;
+}
+
+.element-title {
+    margin: 0;
+    text-shadow: 1px 1px 2px #ff0303;
+}
+
+/* Page */
+
+.page {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+
+.container {
+    display: flex;
+}
+
+
+.header {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    background-color: #989898;
+    
+}
+
+.sidebar {
+    padding: 10px;
+    flex: 2;
+    background-color: #000;
+    color: white;
+}
+
+.main {
+    flex: 6;
+    background-color: #c3c3c3;
+    padding: 0 20px;
+}
+
+.footer {
+    padding: 20px;
+    background-color: #e0e0e0;
+}
+
+.head-text {
+    flex-basis: 0;
+    flex-grow: ;
+}

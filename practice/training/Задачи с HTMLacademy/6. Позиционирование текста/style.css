@@ -1,0 +1,26 @@
+html {
+    font-size: 15px;
+}
+
+body {
+    font-size: 1rem;
+    margin: 0 auto;
+}
+
+.bg {
+    font-family: impact, sans-serif;
+    height: 4rem;
+    background: red;
+    margin: 0;
+    position: relative;
+    padding-left: 1.3rem;
+}
+
+.title {
+    font-size: 2rem;
+    color: white;
+    margin:  0;
+    position: absolute;
+    bottom: -9px;
+
+}

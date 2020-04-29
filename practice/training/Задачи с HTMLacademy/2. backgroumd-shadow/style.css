@@ -1,0 +1,17 @@
+
+body {
+    font-size: 15px;
+}
+
+.squere {
+    margin: 3rem;
+    width: 5rem;
+    height: 5rem;
+
+    position: relative;
+
+    background: url(img/android.png) no-repeat 50%;
+
+    box-shadow: 0 0 6px inset;
+}
+
